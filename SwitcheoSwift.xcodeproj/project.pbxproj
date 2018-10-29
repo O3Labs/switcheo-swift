@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48150EE42130038B00EABD6F /* RequestOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EE32130038B00EABD6F /* RequestOrder.swift */; };
+		48150EEB21300B9200EABD6F /* RequestCandlesticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EEA21300B9200EABD6F /* RequestCandlesticks.swift */; };
+		48150EEE2130114A00EABD6F /* Candlestick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EED2130114A00EABD6F /* Candlestick.swift */; };
+		48150EF2213014F000EABD6F /* Last24hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EF1213014F000EABD6F /* Last24hour.swift */; };
+		48150EF62133A99C00EABD6F /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EF52133A99C00EABD6F /* Offer.swift */; };
+		48150EF82133A9D800EABD6F /* RequestOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EF72133A9D700EABD6F /* RequestOffer.swift */; };
+		48150EFA2133AE3300EABD6F /* RequestTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EF92133AE3300EABD6F /* RequestTrade.swift */; };
+		48150EFC2133AF2A00EABD6F /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EFB2133AF2A00EABD6F /* Trade.swift */; };
+		48150EFE2133BDCE00EABD6F /* RequestTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EFD2133BDCE00EABD6F /* RequestTransaction.swift */; };
+		48150F002133C94B00EABD6F /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150EFF2133C94B00EABD6F /* Account.swift */; };
+		48150F062136486800EABD6F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48150F052136486800EABD6F /* Order.swift */; };
+		48151C392124551100875923 /* SwitcheoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48151C2F2124551000875923 /* SwitcheoSwift.framework */; };
+		48151C3E2124551100875923 /* SwitcheoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48151C3D2124551100875923 /* SwitcheoSwiftTests.swift */; };
+		48151C402124551100875923 /* SwitcheoSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 48151C322124551000875923 /* SwitcheoSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48151C52212522E300875923 /* Switcheo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48151C51212522E300875923 /* Switcheo.swift */; };
+		4821EDF8212E6E6C003FC096 /* Dictionary+SWTHEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821EDF7212E6E6C003FC096 /* Dictionary+SWTHEncoding.swift */; };
+		489EFE7E212A86FE00D3F9DD /* Dictionary+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EFE7D212A86FE00D3F9DD /* Dictionary+Sort.swift */; };
+		489EFE80212BDF6E00D3F9DD /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EFE7F212BDF6E00D3F9DD /* String+Util.swift */; };
+		489EFE82212C2CAF00D3F9DD /* Float64+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EFE81212C2CAF00D3F9DD /* Float64+Util.swift */; };
+		48D4351721256F0900B2D2DC /* neoutils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D4351621256F0900B2D2DC /* neoutils.framework */; };
+		48D4351E2126767900B2D2DC /* Array+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D435192126767900B2D2DC /* Array+Util.swift */; };
+		48D435202126767900B2D2DC /* Data+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4351B2126767900B2D2DC /* Data+Util.swift */; };
+		48FB0A9D21479F980038E22B /* TokenDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB0A9C21479F970038E22B /* TokenDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48151C3A2124551100875923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48151C262124551000875923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48151C2E2124551000875923;
+			remoteInfo = SwitcheoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48150EE32130038B00EABD6F /* RequestOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestOrder.swift; sourceTree = "<group>"; };
+		48150EEA21300B9200EABD6F /* RequestCandlesticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCandlesticks.swift; sourceTree = "<group>"; };
+		48150EED2130114A00EABD6F /* Candlestick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candlestick.swift; sourceTree = "<group>"; };
+		48150EF1213014F000EABD6F /* Last24hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Last24hour.swift; sourceTree = "<group>"; };
+		48150EF52133A99C00EABD6F /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		48150EF72133A9D700EABD6F /* RequestOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestOffer.swift; sourceTree = "<group>"; };
+		48150EF92133AE3300EABD6F /* RequestTrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTrade.swift; sourceTree = "<group>"; };
+		48150EFB2133AF2A00EABD6F /* Trade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade.swift; sourceTree = "<group>"; };
+		48150EFD2133BDCE00EABD6F /* RequestTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTransaction.swift; sourceTree = "<group>"; };
+		48150EFF2133C94B00EABD6F /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		48150F052136486800EABD6F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		48151C2F2124551000875923 /* SwitcheoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwitcheoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48151C322124551000875923 /* SwitcheoSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitcheoSwift.h; sourceTree = "<group>"; };
+		48151C332124551000875923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48151C382124551100875923 /* SwitcheoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitcheoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48151C3D2124551100875923 /* SwitcheoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcheoSwiftTests.swift; sourceTree = "<group>"; };
+		48151C3F2124551100875923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48151C51212522E300875923 /* Switcheo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcheo.swift; sourceTree = "<group>"; };
+		4821EDF7212E6E6C003FC096 /* Dictionary+SWTHEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+SWTHEncoding.swift"; sourceTree = "<group>"; };
+		489EFE7D212A86FE00D3F9DD /* Dictionary+Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Sort.swift"; sourceTree = "<group>"; };
+		489EFE7F212BDF6E00D3F9DD /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
+		489EFE81212C2CAF00D3F9DD /* Float64+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float64+Util.swift"; sourceTree = "<group>"; };
+		48D4351621256F0900B2D2DC /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
+		48D435192126767900B2D2DC /* Array+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Util.swift"; sourceTree = "<group>"; };
+		48D4351B2126767900B2D2DC /* Data+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Util.swift"; sourceTree = "<group>"; };
+		48FB0A9C21479F970038E22B /* TokenDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48151C2B2124551000875923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D4351721256F0900B2D2DC /* neoutils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48151C352124551100875923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48151C392124551100875923 /* SwitcheoSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48150EE12130035800EABD6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48150EEC2130111400EABD6F /* Response */,
+				48150EE921300B7900EABD6F /* Request */,
+				48150EFF2133C94B00EABD6F /* Account.swift */,
+			);
+			name = Models;
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		48150EE921300B7900EABD6F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				48150EFD2133BDCE00EABD6F /* RequestTransaction.swift */,
+				48150EE32130038B00EABD6F /* RequestOrder.swift */,
+				48150EEA21300B9200EABD6F /* RequestCandlesticks.swift */,
+				48150EF72133A9D700EABD6F /* RequestOffer.swift */,
+				48150EF92133AE3300EABD6F /* RequestTrade.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		48150EEC2130111400EABD6F /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				48150EED2130114A00EABD6F /* Candlestick.swift */,
+				48150EF1213014F000EABD6F /* Last24hour.swift */,
+				48150EF52133A99C00EABD6F /* Offer.swift */,
+				48150EFB2133AF2A00EABD6F /* Trade.swift */,
+				48150F052136486800EABD6F /* Order.swift */,
+				48FB0A9C21479F970038E22B /* TokenDetail.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		48151C252124551000875923 = {
+			isa = PBXGroup;
+			children = (
+				48D4351621256F0900B2D2DC /* neoutils.framework */,
+				48151C312124551000875923 /* SwitcheoSwift */,
+				48151C3C2124551100875923 /* SwitcheoSwiftTests */,
+				48151C302124551000875923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48151C302124551000875923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48151C2F2124551000875923 /* SwitcheoSwift.framework */,
+				48151C382124551100875923 /* SwitcheoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48151C312124551000875923 /* SwitcheoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				48150EE12130035800EABD6F /* Models */,
+				48151C51212522E300875923 /* Switcheo.swift */,
+				48151C502125210E00875923 /* Extensions */,
+				48151C322124551000875923 /* SwitcheoSwift.h */,
+				48151C332124551000875923 /* Info.plist */,
+			);
+			path = SwitcheoSwift;
+			sourceTree = "<group>";
+		};
+		48151C3C2124551100875923 /* SwitcheoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				48151C3D2124551100875923 /* SwitcheoSwiftTests.swift */,
+				48151C3F2124551100875923 /* Info.plist */,
+			);
+			path = SwitcheoSwiftTests;
+			sourceTree = "<group>";
+		};
+		48151C502125210E00875923 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48D435192126767900B2D2DC /* Array+Util.swift */,
+				48D4351B2126767900B2D2DC /* Data+Util.swift */,
+				489EFE7D212A86FE00D3F9DD /* Dictionary+Sort.swift */,
+				489EFE7F212BDF6E00D3F9DD /* String+Util.swift */,
+				489EFE81212C2CAF00D3F9DD /* Float64+Util.swift */,
+				4821EDF7212E6E6C003FC096 /* Dictionary+SWTHEncoding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48151C2C2124551000875923 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48151C402124551100875923 /* SwitcheoSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48151C2E2124551000875923 /* SwitcheoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48151C432124551100875923 /* Build configuration list for PBXNativeTarget "SwitcheoSwift" */;
+			buildPhases = (
+				48151C2A2124551000875923 /* Sources */,
+				48151C2B2124551000875923 /* Frameworks */,
+				48151C2C2124551000875923 /* Headers */,
+				48151C2D2124551000875923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitcheoSwift;
+			productName = SwitcheoSwift;
+			productReference = 48151C2F2124551000875923 /* SwitcheoSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48151C372124551100875923 /* SwitcheoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48151C462124551100875923 /* Build configuration list for PBXNativeTarget "SwitcheoSwiftTests" */;
+			buildPhases = (
+				48151C342124551100875923 /* Sources */,
+				48151C352124551100875923 /* Frameworks */,
+				48151C362124551100875923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48151C3B2124551100875923 /* PBXTargetDependency */,
+			);
+			name = SwitcheoSwiftTests;
+			productName = SwitcheoSwiftTests;
+			productReference = 48151C382124551100875923 /* SwitcheoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48151C262124551000875923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "O3 Labs Inc.";
+				TargetAttributes = {
+					48151C2E2124551000875923 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					48151C372124551100875923 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 48151C292124551000875923 /* Build configuration list for PBXProject "SwitcheoSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48151C252124551000875923;
+			productRefGroup = 48151C302124551000875923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48151C2E2124551000875923 /* SwitcheoSwift */,
+				48151C372124551100875923 /* SwitcheoSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48151C2D2124551000875923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48151C362124551100875923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48151C2A2124551000875923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48150EFE2133BDCE00EABD6F /* RequestTransaction.swift in Sources */,
+				48150EEE2130114A00EABD6F /* Candlestick.swift in Sources */,
+				4821EDF8212E6E6C003FC096 /* Dictionary+SWTHEncoding.swift in Sources */,
+				48151C52212522E300875923 /* Switcheo.swift in Sources */,
+				48150F062136486800EABD6F /* Order.swift in Sources */,
+				48150F002133C94B00EABD6F /* Account.swift in Sources */,
+				48150EE42130038B00EABD6F /* RequestOrder.swift in Sources */,
+				48150EFA2133AE3300EABD6F /* RequestTrade.swift in Sources */,
+				489EFE80212BDF6E00D3F9DD /* String+Util.swift in Sources */,
+				48150EF82133A9D800EABD6F /* RequestOffer.swift in Sources */,
+				48D435202126767900B2D2DC /* Data+Util.swift in Sources */,
+				48150EF62133A99C00EABD6F /* Offer.swift in Sources */,
+				48150EFC2133AF2A00EABD6F /* Trade.swift in Sources */,
+				48D4351E2126767900B2D2DC /* Array+Util.swift in Sources */,
+				48150EEB21300B9200EABD6F /* RequestCandlesticks.swift in Sources */,
+				48FB0A9D21479F980038E22B /* TokenDetail.swift in Sources */,
+				489EFE82212C2CAF00D3F9DD /* Float64+Util.swift in Sources */,
+				489EFE7E212A86FE00D3F9DD /* Dictionary+Sort.swift in Sources */,
+				48150EF2213014F000EABD6F /* Last24hour.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48151C342124551100875923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48151C3E2124551100875923 /* SwitcheoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48151C3B2124551100875923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48151C2E2124551000875923 /* SwitcheoSwift */;
+			targetProxy = 48151C3A2124551100875923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48151C412124551100875923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48151C422124551100875923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48151C442124551100875923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SwitcheoSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = network.o3.SwitcheoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48151C452124551100875923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SwitcheoSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = network.o3.SwitcheoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48151C472124551100875923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitcheoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = network.o3.SwitcheoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48151C482124551100875923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitcheoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = network.o3.SwitcheoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48151C292124551000875923 /* Build configuration list for PBXProject "SwitcheoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48151C412124551100875923 /* Debug */,
+				48151C422124551100875923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48151C432124551100875923 /* Build configuration list for PBXNativeTarget "SwitcheoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48151C442124551100875923 /* Debug */,
+				48151C452124551100875923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48151C462124551100875923 /* Build configuration list for PBXNativeTarget "SwitcheoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48151C472124551100875923 /* Debug */,
+				48151C482124551100875923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48151C262124551000875923 /* Project object */;
+}
